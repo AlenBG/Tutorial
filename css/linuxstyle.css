@@ -1,0 +1,30 @@
+body nav{
+ background: darkblue;
+ padding-top: 15px;
+ padding-bottom: 15px;
+ padding-left: 30px;
+ color:white;
+ 
+}
+body{
+    background: rgb(214, 211, 211);
+}
+.text a{
+    text-decoration: none;
+    color:white
+}
+.head h1{
+    text-align: center;
+    font-size-adjust: 2;
+}
+.head h2{
+    padding-left: 400px;
+    padding-right:600px;
+}
+.head p{
+    padding-left:500px;
+    padding-right:500px;
+}
+.head img{
+    padding-left: 600px;
+}
