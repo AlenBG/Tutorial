@@ -1,23 +1,18 @@
 body {
-	background: linear-gradient(-45deg, #312ef9, #678ef9, #10f9b3, #464a4d);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+    background-image: url("../1.jpg");
+    background-size: cover;
 }
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+body h1{
+    text-decoration: none;
+}
+body img{
+    padding-left: 700px;
 }
 .banner-text{
     width: 100%;
-    
+    position: absolute;
+    margin:auto;
+    overflow:hidden;
 }
 .banner-text ul{
     height: 50px;
@@ -25,17 +20,15 @@ body {
 }
 .banner-text ul li{
     display: inline-block;
-    padding: 40px 15px;
+    padding: 20px 25px;
     text-transform: uppercase;
-    color:white;
-    
+    color:white; 
 }
 .button button {
     letter-spacing: 3px;
     font-family: "Reggae One";
     text-decoration: none;
     font-size:25px;
-	padding-top: none;
     padding-right:15px;
 }
 .btn-1,.btn-2,.btn-3{
@@ -57,23 +50,14 @@ body {
     color:black;
     color: 2px solid black;
 }
-h1{
-    text-align: center;
-    font-family: "Encode Sans Semi Expanded";
-    vertical-align: top;
-    line-height: 2000%;
-    font-size-adjust: 3;
-	margin-top: 0;
-}
-div{
-    text-align: center;
-    vertical-align: top;
-    font-size-adjust: 3;
-}
-div a{
-	line-height: 0%;
+
+
+#click{
     text-decoration: none;
-    color: #000;
-    font-family: "Atma";
-	margin-top: 10px;
+    color:white;
+    letter-spacing: 2,5px;
+    text-align: center;
+    font-family: "Reggae One";
+    line-height: 1300%;
+    font-size: 50px;
 }
