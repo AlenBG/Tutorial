@@ -9,22 +9,61 @@ body nav{
 body{
     background: rgb(214, 211, 211);
 }
+.text button {
+    letter-spacing: 3px;
+    font-family: "Reggae One";
+    text-decoration: none;
+    font-size:28px;
+    padding-right:15px;
+    font-family: "Reggae One";
+}
+.text img{
+    padding-left:40px;
+}
+.btn-1{
+    width: 270px;
+    height: 50px;
+    color: white;
+    background: none;
+    border-radius:none;
+    border: #00013e;
+    box-shadow: inset 0 0 0 0 #02003e;
+    transition: ease-out 0.3s;
+    font: size 30px;
+    outline: none;
+
+}
+.btn-1:hover{
+    box-shadow:inset 270px 0 0 0 white;
+    cursor:pointer;
+    color:black;
+    color: 2px solid black;
+}
+.text li{
+    display: inline;
+
+}
 .text a{
     text-decoration: none;
-    color:white
+    color:white;
+    display: inline;
+    padding-right: 20px;
 }
 .head h1{
     text-align: center;
     font-size-adjust: 2;
+    font-family: "Reggae One";
 }
 .head h2{
     padding-left: 400px;
-    padding-right:600px;
+    padding-right:710px;
+    font-family: "Reggae One";
 }
 .head p{
     padding-left:500px;
-    padding-right:500px;
+    padding-right:710px;
 }
 .head img{
-    padding-left: 600px;
+    padding-left: 500px;
+    
 }
